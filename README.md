@@ -1,12 +1,14 @@
 # bookmark-visualization
 
 **Tech Dependencies**
+-------------------------
 Git		- Source control
 Node	- Server
 NPM		- backend package manager
 Bower	- frontend package manager
 
 **Getting Started**
+------------------------
 Install git and add to path variable
 make sure node is running
 git --version
@@ -35,6 +37,7 @@ npm install			//installs dependencies as defined in package.json
 bower install		//installs dependencies as defined in bower.json
 
 **Run the app**
+-----------------------
 At the command line navigate to root of application and run
 nodemon server.js
 or
