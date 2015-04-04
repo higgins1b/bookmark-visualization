@@ -4,4 +4,9 @@ angular.module("BookmarkVisualizerApp")
             return input;
             //return input.replace(/\s+/g, '').toLowerCase();
         };
+    })
+    .filter('filterBookmarks', function() {
+    	return function(input) {
+    		return input;
+    	};
     });

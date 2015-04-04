@@ -5,7 +5,7 @@
 
     <script type="text/ng-template" id="categoryTree">
         <div ng-if="child.children">
-            <button type="button" data-toggle="collapse" data-target="#category-{{child.id}}" class="btn btn-primary" aria-expanded="true" aria-controls="category-{{child.id}}">
+            <button type="button" data-toggle="collapse" data-target="#category-{{child.id}}" class="btn btn-primary section-header" aria-expanded="true" aria-controls="category-{{child.id}}">
                 {{ child.title }}
             </button>
             <div class="collapse in" id="category-{{child.id}}">
@@ -20,7 +20,7 @@
     </script>
 
     <div ng-repeat="child in selectedboard.children">
-      <button type="button" data-toggle="collapse" data-target="#category-{{child.id}}" class="btn btn-primary" aria-expanded="true" aria-controls="category-{{child.id}}">
+      <button type="button" data-toggle="collapse" data-target="#category-{{child.id}}" class="btn btn-primary section-header" aria-expanded="true" aria-controls="category-{{child.id}}">
                 {{ child.title }}
             </button>
             <div class="mainContainer collapse in" id="category-{{child.id}}">

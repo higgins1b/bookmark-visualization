@@ -50,3 +50,7 @@ body {
     border: 1px dotted white;
     /*display: inline-block;*/
 }
+.section-header {
+    width: 100%;
+    text-align: left;
+}
