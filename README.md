@@ -33,3 +33,9 @@ Install project dependencies in project root.
 At command line run the following commands
 npm install			//installs dependencies as defined in package.json
 bower install		//installs dependencies as defined in bower.json
+
+**Run the app**
+At the command line navigate to root of application and run
+nodemon server.js
+or
+node server.js
