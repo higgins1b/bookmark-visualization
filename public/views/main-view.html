@@ -1,0 +1,16 @@
+<p>
+    <input type="search" class="form-control" placeholder="Search" ng-model="query">
+</p>
+
+<div class="upload-container">
+    <input type="file" ng-controller="ImportController" class="btn btn-primary" ng-file-select="onFileSelect($files)" />
+</div>
+
+<div>
+    <div class="left-nav col-lg-2"></div>
+    <board class="center col-lg-10" selectedboard="selectedboard"></board>
+</div>
+
+<!--div ng-repeat='bookmark in bookmarks | filter: query'>
+    id: {{bookmark.id}}. {{bookmark.title}}
+</div-->
